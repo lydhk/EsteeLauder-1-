@@ -14,6 +14,13 @@
 		00453B4B28AD350B006E380C /* EsteeLauder_1_.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 00453B4928AD350B006E380C /* EsteeLauder_1_.xcdatamodeld */; };
 		00453B4D28AD3510006E380C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00453B4C28AD3510006E380C /* Assets.xcassets */; };
 		00453B5028AD3510006E380C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00453B4E28AD3510006E380C /* LaunchScreen.storyboard */; };
+		00453B5A28ADE9E2006E380C /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00453B5928ADE9E2006E380C /* SecondViewController.swift */; };
+		00453B6028AF6134006E380C /* Quiz1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00453B5F28AF6134006E380C /* Quiz1ViewController.swift */; };
+		00453B6228AF61AE006E380C /* Quiz2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00453B6128AF61AE006E380C /* Quiz2ViewController.swift */; };
+		00453B6428AF61C4006E380C /* Quiz3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00453B6328AF61C4006E380C /* Quiz3ViewController.swift */; };
+		00453B6628AF61E2006E380C /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00453B6528AF61E2006E380C /* ResultsViewController.swift */; };
+		00453B6828AF8292006E380C /* ProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00453B6728AF8291006E380C /* ProductViewController.swift */; };
+		00453B6A28AF8981006E380C /* today'sActivitiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00453B6928AF8981006E380C /* today'sActivitiesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +33,13 @@
 		00453B4C28AD3510006E380C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		00453B4F28AD3510006E380C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		00453B5128AD3510006E380C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00453B5928ADE9E2006E380C /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		00453B5F28AF6134006E380C /* Quiz1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quiz1ViewController.swift; sourceTree = "<group>"; };
+		00453B6128AF61AE006E380C /* Quiz2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quiz2ViewController.swift; sourceTree = "<group>"; };
+		00453B6328AF61C4006E380C /* Quiz3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quiz3ViewController.swift; sourceTree = "<group>"; };
+		00453B6528AF61E2006E380C /* ResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
+		00453B6728AF8291006E380C /* ProductViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductViewController.swift; sourceTree = "<group>"; };
+		00453B6928AF8981006E380C /* today'sActivitiesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "today'sActivitiesViewController.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +75,14 @@
 				00453B4028AD350B006E380C /* AppDelegate.swift */,
 				00453B4228AD350B006E380C /* SceneDelegate.swift */,
 				00453B4428AD350B006E380C /* ViewController.swift */,
+				00453B5928ADE9E2006E380C /* SecondViewController.swift */,
+				00453B5F28AF6134006E380C /* Quiz1ViewController.swift */,
+				00453B6128AF61AE006E380C /* Quiz2ViewController.swift */,
+				00453B6328AF61C4006E380C /* Quiz3ViewController.swift */,
+				00453B6528AF61E2006E380C /* ResultsViewController.swift */,
+				00453B6728AF8291006E380C /* ProductViewController.swift */,
 				00453B4628AD350B006E380C /* Main.storyboard */,
+				00453B6928AF8981006E380C /* today'sActivitiesViewController.swift */,
 				00453B4C28AD3510006E380C /* Assets.xcassets */,
 				00453B4E28AD3510006E380C /* LaunchScreen.storyboard */,
 				00453B5128AD3510006E380C /* Info.plist */,
@@ -141,10 +162,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00453B6A28AF8981006E380C /* today'sActivitiesViewController.swift in Sources */,
 				00453B4528AD350B006E380C /* ViewController.swift in Sources */,
 				00453B4B28AD350B006E380C /* EsteeLauder_1_.xcdatamodeld in Sources */,
+				00453B6228AF61AE006E380C /* Quiz2ViewController.swift in Sources */,
 				00453B4128AD350B006E380C /* AppDelegate.swift in Sources */,
+				00453B5A28ADE9E2006E380C /* SecondViewController.swift in Sources */,
+				00453B6628AF61E2006E380C /* ResultsViewController.swift in Sources */,
 				00453B4328AD350B006E380C /* SceneDelegate.swift in Sources */,
+				00453B6028AF6134006E380C /* Quiz1ViewController.swift in Sources */,
+				00453B6828AF8292006E380C /* ProductViewController.swift in Sources */,
+				00453B6428AF61C4006E380C /* Quiz3ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
